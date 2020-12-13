@@ -1,0 +1,89 @@
+#registration-page-logo-container {
+  min-width: 100%;
+  text-align: center;
+  padding: 0rem;
+}
+.home {
+  margin: 0;
+  padding-top: 5rem;
+}
+
+.button {
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.arrow {
+  font-size: 1.1rem;
+}
+.form-div {
+  width: 98%;
+  margin: 0 auto;
+  /* height: 470px; */
+  background-image: -webkit-linear-gradient(#facf32d2, #ffffff);
+  background-image: -moz-linear-gradient(#facf32d2, #ffffff);
+  background-image: -ms-linear-gradient(#facf32d2, #ffffff);
+  background-image: -o-linear-gradient(#facf32d2, #ffffff);
+  background-image: linear-gradient(#facf32d2, #ffffff);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.terms-conditions {
+  height: 335px;
+  overflow-y: scroll;
+  border: 1px solid dodgerblue;
+  border-radius: 9px;
+}
+
+.terms-conditions::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.terms-conditions {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+input.largerCheckbox {
+  width: 25px;
+  height: 25px;
+}
+
+.form-content {
+  position: relative;
+  z-index: 1000;
+}
+input,
+select {
+  border: 1.8px solid dodgerblue !important;
+  color: dodgerblue !important;
+}
