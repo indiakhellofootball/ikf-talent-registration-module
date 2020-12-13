@@ -60,7 +60,7 @@ class HomeComponent extends Component {
                   onClick={this.navigateToForm}
                   className="btn btn-light md w-75 p-3 text-info font-weight-bold button"
                 >
-                  <span>REGISTER NOW</span>
+                  <span>REGISTER NOW FOR TALENT ID CAMP</span>
                 </button>
               </div>
             </div>

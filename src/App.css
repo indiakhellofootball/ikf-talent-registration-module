@@ -48,11 +48,11 @@
   width: 98%;
   margin: 0 auto;
   /* height: 470px; */
-  background-image: -webkit-linear-gradient(#facf32d2, #ffffff);
-  background-image: -moz-linear-gradient(#facf32d2, #ffffff);
-  background-image: -ms-linear-gradient(#facf32d2, #ffffff);
-  background-image: -o-linear-gradient(#facf32d2, #ffffff);
-  background-image: linear-gradient(#facf32d2, #ffffff);
+  background-image: -webkit-linear-gradient(#ffcc05, #ffffff);
+  background-image: -moz-linear-gradient(#ffcc05, #ffffff);
+  background-image: -ms-linear-gradient(#ffcc05, #ffffff);
+  background-image: -o-linear-gradient(#ffcc05, #ffffff);
+  background-image: linear-gradient(#ffcc05, #ffffff);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -85,5 +85,6 @@ input.largerCheckbox {
 input,
 select {
   border: 1.8px solid dodgerblue !important;
-  color: dodgerblue !important;
+  color: #0d75bc !important;
+  font-size: 21px;
 }

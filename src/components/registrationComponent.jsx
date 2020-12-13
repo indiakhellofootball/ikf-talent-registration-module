@@ -159,13 +159,13 @@ class RegistrationComponent extends Component {
                 return this.setState({ registrationFormError: registrationFormError });
             }
             let age = moment(new Date()).diff(date, 'years');
-            if (age >= 14 && age <= 16) {
+            if (age >= 11 && age <= 16) {
                 registrationFormError.dateOfBirth = "";
                 registrationForm.dateOfBirth = e.target.value;
                 return this.setState({ registrationForm: registrationForm, registrationFormError: registrationFormError });
             }
             registrationForm.dateOfBirth = "";
-            registrationFormError.dateOfBirth = "Age Should Be Of 14 - 16 Years Old To Register !";
+            registrationFormError.dateOfBirth = "Age Should Be Of 11 - 16 Years Old To Register !";
             return this.setState({ registrationFormError: registrationFormError });
         }
         registrationFormError.dateOfBirth = "Select Gender First !";

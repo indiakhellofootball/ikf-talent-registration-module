@@ -5,21 +5,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: -webkit-linear-gradient(#ffffff, #ffcc00);
-  background-image: -moz-linear-gradient(#ffffff, #ffcc00);
-  background-image: -ms-linear-gradient(#ffffff, #ffcc00);
-  background-image: -o-linear-gradient(#ffffff, #ffcc00);
-  background-image: linear-gradient(#ffffff, #ffcc00);
+  background-image: -webkit-linear-gradient(#ffffff, #ffcc05);
+  background-image: -moz-linear-gradient(#ffffff, #ffcc05);
+  background-image: -ms-linear-gradient(#ffffff, #ffcc05);
+  background-image: -o-linear-gradient(#ffffff, #ffcc05);
+  background-image: linear-gradient(#ffffff, #ffcc05);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  font-family: myriad-pro,source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 .finexx-application-busy-wrapper {
   display: block;
   z-index: 5001;
+}
+
+.text-danger {
+  color: #e8223f !important;
 }
