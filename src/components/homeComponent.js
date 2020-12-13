@@ -13,7 +13,7 @@ class HomeComponent extends Component {
   checkStatus = () => {
     window.location =
       Config.API_ENDPOINT +
-      "/public/query/registration-status-aadhaar/" +
+      "/public/query/talent-registration-status-aadhaar/" +
       this.state.aadhaarNumber;
   };
   navigateToForm = () => {
