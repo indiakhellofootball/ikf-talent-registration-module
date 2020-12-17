@@ -498,7 +498,7 @@ class RegistrationComponent extends Component {
                         {/* div to be rendered dynamicly */}
                     </div>
                     <div className="container-fluid bg-light pb-3 rounded mt-3 form-div">
-                        <h5 className="text-center text-info pt-1">All Fields Are Mandotry To Submit Registration.</h5>
+                        <h5 className="text-center text-info pt-1">All Fields Are Mandatory To Submit Registration.</h5>
                         {this.state.activePage === 1 ? <div style={{ display: "block" }}>
                             <form className="w-100 ml-auto mr-auto" onSubmit={this.handleSubmit}>
                                 <div className="form-row ">
@@ -644,7 +644,7 @@ class RegistrationComponent extends Component {
                                 </div>
                                 <div className="form-row ">
                                     <div className="form-group col-12 mt-2">
-                                        <label htmlFor="parentName" className="text-primary font-weight-bold">Name</label>
+                                        <label htmlFor="parentName" className="text-primary font-weight-bold">Parent Name*</label>
                                         <input type="text" className="form-control form-control-sm" id="parentName" placeholder="Name Of Parent" value={this.state.registrationForm.formFillerName} onChange={this.allowParentNameChars} onBlur={this.trimParentName} autoComplete="off" />
                                         <div>
                                             <small className='text-danger font-weight-bold'>{this.state.registrationFormError.formFillerName}</small>
