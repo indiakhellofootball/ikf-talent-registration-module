@@ -612,7 +612,7 @@ class RegistrationComponent extends Component {
                                             <div>
                                                 <small className='text-danger font-weight-bold'>{this.state.registrationFormError.city}</small>
                                             </div>
-                                            <button className="btn btn-info mt-2" data-toggle="modal" data-target="#addCityModal" >Add City To List</button>
+                                            {/* <button className="btn btn-info mt-2" data-toggle="modal" data-target="#addCityModal" >Add City To List</button> */}
                                         </div>
                                     </div>
                                     <div className="form-row ">
@@ -653,7 +653,7 @@ class RegistrationComponent extends Component {
                                 </div>
                                 <div className="form-row ">
                                     <div className="form-group col-12 mt-2">
-                                        <label htmlFor="mobileNumber" className="text-primary font-weight-bold">Mobile No.</label>
+                                        <label htmlFor="mobileNumber" className="text-primary font-weight-bold">Mobile No.*</label>
                                         <input type="text" className="form-control form-control-sm" id="mobileNumber" placeholder="Mobile No." value={this.state.registrationForm.mobileNumber} onChange={this.allowMobileNumber} onBlur={this.validateMobileNumber} autoComplete="off" />
                                         <div>
                                             <small className='text-danger font-weight-bold'>{this.state.registrationFormError.mobileNumber}</small>
@@ -662,7 +662,7 @@ class RegistrationComponent extends Component {
                                 </div>
                                 <div className="form-row ">
                                     <div className="form-group col-12 mt-2">
-                                        <label htmlFor="parentAadhaarCardNumber" className="text-primary font-weight-bold">Aadhaar Card No.</label>
+                                        <label htmlFor="parentAadhaarCardNumber" className="text-primary font-weight-bold">Aadhaar Card No.*</label>
                                         <input type="text" className="form-control form-control-sm" id="parentAadhaarCardNumber" placeholder="Parent Aadhaar Card Number" onChange={this.allowParentAadhaarNumberChars} onBlur={this.validateParentAadhaarNumber} autoComplete="off" value={this.state.registrationForm.formFillerAadhaarCardNumber} />
                                         <div>
                                             <small className='text-danger font-weight-bold'>{this.state.registrationFormError.formFillerAadhaarCardNumber}</small>
